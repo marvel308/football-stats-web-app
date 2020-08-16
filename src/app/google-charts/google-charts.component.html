@@ -1,0 +1,4 @@
+<div *ngFor='let result of results' style="width: 100%;height:100%;">
+	<google-chart [title]="result.title" [type]="type" [data]="result.data" [columns]="result.columnNames" [options]="options" style="width: 100%;height:100%;">
+	</google-chart>
+</div>
